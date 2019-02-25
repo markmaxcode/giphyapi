@@ -1,0 +1,35 @@
+{
+	text-align: center;
+}
+body {
+	
+	background: burlywood;
+	font-family: 'Roboto', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bungee', cursive;
+}
+.jumbotron {
+	color: #454f51;
+	font-weight: 300;
+	background-color: transparent;
+}
+#tvShowButtons {
+	padding: 10px;
+	margin: 10px;
+}
+.tv-item {
+	border: 1px solid #114357;
+	border-radius: 10px;
+	background: #ffffff;
+	min-height: 281px;
+}
+.tvShowImage {
+	margin: 0 auto;
+	padding: 5px;
+
+}
+.rating {
+    color: #9dc6a3;
+}

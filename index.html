@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giphy Search</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Roboto:300" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Movie and TV Show Search</h1>
+			<br>
+			<p>The theme of the movies and tv shows below are that they are centered around the city of New York.  You may also Enter the name of a movie or television show below and a button will appear below 
+               for your entered show.  When you click on it, a number of giphy's will appear for your chosen show.</p>
+		
+			<div class="row">
+			  	<div class="col-md-6 col-md-offset-3">
+				  	<form id="tvShowForm" class="form-inline">
+				    	<div class="form-group form-group-lg">
+					      	<input type="text" class="form-control" id="tvShow-input">
+				      	</div>
+				        <button id="addTVShow" class="btn btn-default btn-lg" type="submit" value="Submit">Submit</button>
+				    </form>
+			  	</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="btn-group" role="group" aria-label="..." id="tvShowButtons">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="tvShows" class="row">
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="assets/javascript/giphy.js"></script>
+</body>
+</html>
